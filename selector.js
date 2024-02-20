@@ -9,3 +9,14 @@ heading.innerHTML = 'hey';
 
 let tagName = document.getElementsByTagName('h4')[0];
 tagName.innerText = 'Congratulations';
+
+let Id1 = document.querySelector('#Id1');
+Id1.innerText='Bye';
+
+document.querySelector('h5');
+
+
+document.querySelector('.class1');
+document.querySelectorAll('.class1');
+
+document.querySelectorAll('.class1')[2];
