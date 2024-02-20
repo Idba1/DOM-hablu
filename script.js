@@ -6,3 +6,6 @@ class1.innerHTML = 'hi';
 
 let heading = document.getElementsByName('heading')[0];
 heading.innerHTML = 'hey';
+
+let tagName = document.getElementsByTagName('h4')[0];
+tagName.innerText = 'Congratulations';
