@@ -12,3 +12,8 @@ class1.innerHTML = `
 
 `
 console.log(class1);
+
+
+let tagName = document.getElementsByTagName('p')[1];
+tagName.textContent = "hey it's tag selector with textContent";
+console.log(tagName);
