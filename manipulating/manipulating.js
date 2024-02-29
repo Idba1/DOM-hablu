@@ -9,3 +9,9 @@ Delta compression using up to 4 threads </p>
 
 `
 document.body.appendChild(div);
+
+
+// script
+let script = document.createElement('script');
+script.src = 'idba.js';
+document.body.appendChild(script)
