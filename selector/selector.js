@@ -22,3 +22,8 @@ console.log(tagName);
 let quarry = document.querySelector('#quarry');
 quarry.innerText = "Quarry selector";
 console.log(quarry);
+
+
+let quarryAll = document.querySelectorAll("h1")[5];
+quarryAll.textContent = 'quarry Selector All'
+console.log(quarryAll);
